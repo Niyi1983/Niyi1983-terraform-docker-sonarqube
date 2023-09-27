@@ -1,7 +1,7 @@
 # Input Variables
 variable "vpc_id" {
   type    = string
-  default = "	vpc-02d9fd54627ca5c19" # Replace with the actual VPC ID of your jenkins svr 
+  default = "	vpc-0d03fff8f29d4d6b4" # Replace with the actual VPC ID of your jenkins svr 
 }
 
 variable "security_group_id" {
