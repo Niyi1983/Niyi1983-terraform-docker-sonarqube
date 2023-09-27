@@ -25,7 +25,7 @@ variable "instance_type" {
   
 }
 
-variable "instanc_keypair" {
+variable "instance_keypair" {
     type= string
     default = "TJkeypair"
 }
