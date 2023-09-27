@@ -6,12 +6,12 @@ variable "vpc_id" {
 
 variable "security_group_id" {
   type    = string
-  default = "sg-004caa499b5e7a54b" # Replace with the actual security group ID of your jenkins sg-group 
+  default = "sg-0d5a350a6750e045c" # Replace with the actual security group ID of your jenkins sg-group 
 }
 
 variable "public_subnet_id" {
   type    = string
-  default = "subnet-0a8a314b70217d378" # Replace with the actual public subnet ID of your jenkins public subnet
+  default = "subnet-08a13cee346cdaf79" # Replace with the actual public subnet ID of your jenkins public subnet
 }
 
 variable "aws_region" {
@@ -25,7 +25,10 @@ variable "instance_type" {
   
 }
 
-variable "instance_keypair" {
-  type = string
-  default = "demo-kp"
+variable "instanc_keypair" {
+    type= string
+    default = "TJkeypair"
 }
+
+
+
