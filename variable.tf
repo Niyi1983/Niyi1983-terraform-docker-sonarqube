@@ -1,12 +1,12 @@
 # Input Variables
 variable "vpc_id" {
   type    = string
-  default = "	vpc-0d03fff8f29d4d6b4" # Replace with the actual VPC ID of your jenkins svr 
+  default = "	vpc-0a17364a292a1bfd9" # Replace with the actual VPC ID of your jenkins svr 
 }
 
 variable "security_group_id" {
   type    = string
-  default = "sg-0d5a350a6750e045c" # Replace with the actual security group ID of your jenkins sg-group 
+  default = "sg-099edd338288089e6" # Replace with the actual security group ID of your jenkins sg-group 
 }
 
 variable "public_subnet_id" {
