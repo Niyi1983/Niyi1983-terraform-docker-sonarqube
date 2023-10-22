@@ -1,4 +1,4 @@
-resource "aws_instance" "sonarqube" {
+resource "aws_instance" "sandbox4" {
   #count         = "2"
   ami           = data.aws_ami.amzlinux.id
   instance_type = var.instance_type
