@@ -1,5 +1,5 @@
 # Input Variables
-variable "vpc_id" {
+variable "vpc-0a17364a292a1bfd9" {
   type    = string
   default = "	vpc-02d9fd54627ca5c19" # Replace with the actual VPC ID of your jenkins svr 
 }
